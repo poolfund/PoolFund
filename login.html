@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="regform.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<div class="reg">
+		<h3 class="login">Log in</h3>
+		<form id="form" action="placeholder.html" onsubmit='Incorrect();'>
+    		<input id="username" class ="inputfield" type="username" pattern=".{5,}" title="Username must be at least 5 characters long." placeholder="Enter Username" name="username" required>
+
+    		<input id="password" class ="inputfield" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must be 8 characters long, have a number, a lowercase letter, and an uppercase letter." placeholder="Enter Password" name="psw" required>
+
+			<button id="logbutton">Log in</button>
+			<p id="popup"></p>
+		</form>
+		<div class ="forgotpw">
+			<a href="placeholder.html">Forgot Password?</a>
+		</div>
+	</div>
+	<p class="name">PoolFund 2019</p>
+
+	<script src="log.js"></script>
+</body>
+</html>
