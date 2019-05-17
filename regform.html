@@ -11,7 +11,7 @@
 		<form action="placeholder.html">
     		<input class ="inputfield" type="email" placeholder="Email" name="email" required>
 
-    		<input id="pw" class ="inputfield" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Password must be 8 characters long, have a number, a lowercase letter, and an uppercase letter.' : ''); if(this.checkValidity()) form.cpw.pattern = this.value;" title="Password must be 8 characters long, have a number, a lowercase letter, and an uppercase letter." placeholder="Enter Password" name="psw" required>
+    		<input id="pw" class ="inputfield" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Password must be 8 characters long, have a number, a lowercase letter, and an uppercase letter.' : '');" if(this.checkValidity()) form.cpw.pattern = this.value;" title="Password must be 8 characters long, have a number, a lowercase letter, and an uppercase letter." placeholder="Enter Password" name="psw" required>
 
     		<input id="cpw" class ="inputfield" type="password" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same password as above.' : '');" title="Password must be 8 characters long, have a number, a lowercase letter, and an uppercase letter." placeholder="Repeat Password" name="psw-repeat" required>
 
