@@ -15,3 +15,6 @@ https://poolfund.github.io/PoolFund/index.html
 
 Portfolio Page
 https://poolfund.github.io/PoolFund/portfolio.html
+
+Profile Page
+https://poolfund.github.io/PoolFund/profile.html
