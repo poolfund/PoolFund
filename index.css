@@ -1,6 +1,9 @@
 body {
   font-family: 'Ubuntu';
   font-weight: 700;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .topnav {
@@ -15,7 +18,11 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
-  margin-left: 220px;
+  margin-left: 10px;
+}
+
+.bar a {
+  margin-left: 215px;
 }
 
 
@@ -42,7 +49,7 @@ body {
 .cat {
   width: 207px;
   height: 100px;
-  text-align: center;
+  text-align: left;
   float: left;
   font-size: 25px;
 }
