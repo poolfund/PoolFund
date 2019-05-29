@@ -1,0 +1,43 @@
+img {
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.userinfo {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 2%;
+	font-size: 20px;
+}
+
+.badge img {
+  border-radius: 0%;
+  height: 40px;
+  width: 40px;
+  margin-left: 10%;
+  margin-top: 2%;
+  
+}
+
+.poolsProfile {
+	position: relative;
+	left: 500px;
+	top: -650px;
+}
+
+
+.gamification {
+	font-size: 10px;
+	color: grey;
+	position: relative;
+	left: -115px;
+	top: -55px;
+}
+
+.back img {
+	height: 40px;
+  	width: 40px;
+}
