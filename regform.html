@@ -8,7 +8,7 @@
 <body>
 	<div class="reg">
 		<h3>Register</h3>
-		<form action="placeholder.html">
+		<form action="index.html" name = "regAction">
   		<input class ="inputfield" type="email" placeholder="Email" name="email" required>
 
 			<input class ="inputfield" type="username" pattern=".{5,}" title="Username must be at least 5 characters long." placeholder="Enter Username" name="username" required>
@@ -19,17 +19,21 @@
 
 			<div id="checkboxes" class="inputfield">
 				<div class="checkinput">
-					<input class="check" type="checkbox" name="account-type" value="manager"> Manager <br>
+					<input class="check" type="checkbox" name="account-type" value="manager" id = "m" onclick="CheckM()" required> Manager <br>
 				</div>
 				<div class="checkinput">
-					<input class="check" type="checkbox" name="account-type" value="investor"> Investor <br>
+					<input class="check" type="checkbox" name="account-type" value="investor" id = "i" onclick="CheckI()" required> Investor <br>
 				</div>
 			</div>
 
-			<input id = "regbutton" type="submit" value="Submit">
+			<input id = "regbutton" type="submit" value="Submit" onclick="CheckOk()">
 
 		</form>
 	</div>
+
+
 	<p class="name">PoolFund 2019</p>
+
+	<script src="regform.js"></script>
 </body>
 </html>
