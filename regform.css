@@ -40,7 +40,8 @@ h3 {
 }
 
 #checkboxes {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	height: 38.4px;
 }
 

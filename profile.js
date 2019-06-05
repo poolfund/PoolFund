@@ -1,4 +1,3 @@
-var user = document.getElementById("username");
 var clicks = 0;
 
 function Invite(){
