@@ -43,6 +43,7 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	height: 38.4px;
+	font-weight: 700;
 }
 
 .checkinput {
@@ -53,15 +54,70 @@ h3 {
 	color: rgb(125, 126, 132);
 }
 
-#text {
-	padding-bottom: 4px;
+.checkbox {
+	float: left;
+	padding-left: 35px;
+	font-size: 13px;
+	color: rgb(125, 126, 132);
 }
 
-.checkinput input {
+.checktext {
+	float: left;
+	width: 72.5px;
+	height: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: rgb(125, 126, 132);
+}
+
+.check:hover {
+	cursor: pointer;
+	background-color: #EEEEEE;
+}
+
+.check {
+	-webkit-appearance: none;
 	height: 15px;
 	width: 15px;
-	margin-top: 4.2px;
-	margin-bottom: 4.2px;
+	border: 1.5px solid;
+	border-radius: 2px;
+	border-color: rgb(125, 126, 132);
+	margin-top: 5px;
+	outline: 0;
+}
+
+.check:active {
+	background-color: rgb(125, 126, 132);
+}
+
+.check:checked {
+	background-color: rgb(125,126,132);
+}
+
+.check:after {
+  content: "";
+  display: none;
+}
+
+.check:checked:after {
+  display: block;
+}
+
+.check:after {
+	margin-left: 3.5px;
+	margin-top: 1px;
+  width: 3px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 1.5px 1.5px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#text {
+	padding-bottom: 4px;
 }
 
 #regbutton {
