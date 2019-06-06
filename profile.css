@@ -13,19 +13,11 @@ img {
 	font-size: 20px;
 }
 
-.badge img {
-  border-radius: 0%;
-  height: 40px;
-  width: 40px;
-  margin-left: 10%;
-  margin-top: 2%;
-  
-}
 
 .poolsProfile {
 	position: relative;
 	left: 500px;
-	top: -650px;
+	top: -600px;
 }
 
 
@@ -34,7 +26,7 @@ img {
 	color: grey;
 	position: relative;
 	left: -115px;
-	top: -55px;
+	top: -45px;
 }
 
 .back img {
@@ -45,7 +37,7 @@ img {
 #referButton{
 	position: relative;
 	left: -100px;
-	top: -55px;
+	top: -45px;
 	border-radius: 20px;
 	outline: none;
     color: rgb(38, 50, 56);
@@ -61,7 +53,7 @@ img {
 .refer {
 	position: relative;
 	left: -115px;
-	top: -55px;
+	top: -45px;
 	border-radius: 20px;
 	outline: none;
     color: rgb(38, 50, 56);
