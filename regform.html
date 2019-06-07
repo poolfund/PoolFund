@@ -18,15 +18,21 @@
     	<input id="cpw" class ="inputfield" type="password" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same password as above.' : '');" title="Password must be 8 characters long, have a number, a lowercase letter, and an uppercase letter." placeholder="Repeat Password" name="psw-repeat" required>
 
 			<div id="checkboxes" class="inputfield">
-				<div class="checkinput">
-					<input class="check" type="checkbox" name="account-type" value="manager" id = "m" onclick="CheckM()" required> Manager <br>
+				<div class="checkbox">
+					<input class="check" type="checkbox" name="account-type" value="manager" id = "m" onclick="CheckM()" required>
 				</div>
-				<div class="checkinput">
-					<input class="check" type="checkbox" name="account-type" value="investor" id = "i" onclick="CheckI()" required> Investor <br>
+				<div class="checktext">
+					Manager
+				</div>
+				<div class="checkbox">
+					<input class="check" type="checkbox" name="account-type" value="investor" id = "i" onclick="CheckI()" required>
+				</div>
+				<div class="checktext">
+					Investor
 				</div>
 			</div>
 
-			<input id = "regbutton" type="submit" value="Submit" onclick="CheckOk()">
+			<input id = "regbutton" type="submit" value="Submit">
 
 		</form>
 	</div>
