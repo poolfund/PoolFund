@@ -27,3 +27,14 @@ function CheckI(){
     document.getElementById("i").required = true;
   }
 }
+
+function CheckOk(){
+    console.log("HERE3")
+    if(document.getElementById("m").checked){
+        document.getElementById("m").checked = true;
+    }
+    else if(document.getElementById("i").checked){
+        document.regAction.action = "indexInvestor.html";
+        document.getElementById("i").checked = true;
+    }
+}
